@@ -1,0 +1,21 @@
+
+#container{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.person{
+    margin: 10px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.person:hover{
+    background-color: grey;
+}
+.email{
+    color: blue;
+    text-decoration: underline;
+}
